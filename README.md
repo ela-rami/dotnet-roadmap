@@ -9,15 +9,20 @@ Non è una roadmap fissa: l'obiettivo è fisso, i passi si decidono uno alla vol
 Se stai riprendendo il percorso (io, una persona o un'AI senza contesto):
 
 1. **[CONTEXT.md](CONTEXT.md)** — chi sono, obiettivo, metodo e regole
-2. **[PROGRESS.md](PROGRESS.md)** — a che punto sono, punti deboli, ultimo step fatto
-3. **[REQUIREMENTS.md](REQUIREMENTS.md)** — cosa chiedono gli annunci e il mio livello su ogni voce
+2. **[GUIDE.md](GUIDE.md)** — come guidarmi: scegliere il prossimo step, presentarlo, aggiornare il repo
+3. **[PROGRESS.md](PROGRESS.md)** — a che punto sono, punti deboli, ultimo step fatto
+4. **[REQUIREMENTS.md](REQUIREMENTS.md)** — cosa chiedono gli annunci e il mio livello su ogni voce
+
+Per iniziare una nuova chat basta passare il link del repo e chiedere: *"Leggi CLAUDE.md e dimmi qual è il prossimo step"*.
 
 ## Struttura
 
 ```
 dotnet-roadmap/
 ├── README.md         → questa pagina: introduzione e indice
+├── CLAUDE.md         → punto di ingresso per un'AI
 ├── CONTEXT.md        → obiettivo, metodo, regole
+├── GUIDE.md          → come guidarmi sessione per sessione
 ├── PROGRESS.md       → stato attuale, log degli step, verifiche
 ├── REQUIREMENTS.md   → requisiti degli annunci (Must / Should / Nice) e mio livello
 ├── csharp/           → C#, OOP, LINQ, async (creata al primo step)

@@ -1,6 +1,6 @@
 # Context — leggi prima questo
 
-Questo file è per chiunque (persona o AI) riprenda a guidare il mio percorso. Dice chi sono, dove voglio arrivare e come voglio lavorare. Lo stato attuale è in [PROGRESS.md](PROGRESS.md).
+Questo file è per chiunque (persona o AI) riprenda a guidare il mio percorso. Dice chi sono, dove voglio arrivare e come voglio lavorare. Lo stato attuale è in [PROGRESS.md](PROGRESS.md); come guidarmi in pratica, sessione per sessione, è in [GUIDE.md](GUIDE.md).
 
 ## Chi sono
 
