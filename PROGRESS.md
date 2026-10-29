@@ -8,7 +8,7 @@
 - **Focus:** solo requisiti Must, partendo dalle lacune con step piccoli e isolati.
 - **Priorità di partenza:** LINQ (usando l'SQL come ponte), dependency injection, EF Core (IQueryable, N+1), Git, alternati a LeetCode.
 - **LeetCode:** stato dettagliato in [leetcode/CONTEXT.md](leetcode/CONTEXT.md) — lezione 2 (Arrays and strings) a metà, prossimo: step 7.
-- **Prossimo step:** da decidere alla prossima sessione ("qual è il prossimo step?").
+- **Step in corso:** Step 1 — LINQ di base con l'SQL come ponte (assegnato il 29 ottobre, vedi log).
 
 ## Ultima volta per argomento
 
@@ -30,7 +30,7 @@ Serve a capire cosa si sta arrugginendo e va ripreso.
 
 | # | Data | Area | Step | Esito |
 | --- | --- | --- | --- | --- |
-| — | — | — | Nessuno step ancora | — |
+| 1 | 29 ott 2026 | LINQ | Tradurre 5 query SQL in LINQ su dati di produzione in memoria (`csharp/01-linq-basics`) | In corso — assegnato, da iniziare |
 
 ## Verifiche
 
