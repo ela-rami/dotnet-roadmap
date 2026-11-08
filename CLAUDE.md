@@ -5,9 +5,10 @@ Questo repository è il mio percorso di studio per diventare backend developer .
 Prima di rispondere a qualsiasi cosa sul percorso, leggi:
 
 1. [CONTEXT.md](CONTEXT.md) — chi sono, obiettivo, metodo, regole
-2. [GUIDE.md](GUIDE.md) — come scegliere il prossimo step, come presentarlo, cosa aggiornare alla fine
-3. [PROGRESS.md](PROGRESS.md) — dove sono arrivato
-4. [REQUIREMENTS.md](REQUIREMENTS.md) — requisiti e mio livello
+2. [COURSE.md](COURSE.md) — il programma del corso (moduli, esami, lezioni)
+3. [GUIDE.md](GUIDE.md) — come scegliere il prossimo step, condurre esami e lezioni, cosa aggiornare alla fine
+4. [PROGRESS.md](PROGRESS.md) — stato del corso e punto esatto in cui sono
+5. [REQUIREMENTS.md](REQUIREMENTS.md) — requisiti degli annunci e mio livello
 
 Regola principale: il codice degli esercizi lo scrivo io. Tu spieghi, dai indizi, revisioni.
 

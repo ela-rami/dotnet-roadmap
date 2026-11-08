@@ -2,16 +2,17 @@
 
 Il mio percorso per diventare un **backend developer .NET/C# junior** candidabile sul mercato internazionale (inglese), con l'obiettivo di lavorare a Vienna o da remoto.
 
-Non è una roadmap fissa: l'obiettivo è fisso, i passi si decidono uno alla volta in base a come sto andando.
+È un corso strutturato a moduli ([COURSE.md](COURSE.md)): ogni modulo parte con un esame completo, si studia solo dove ci sono lacune, e si chiude con un esame finale.
 
 ## Da dove partire
 
 Se stai riprendendo il percorso (io, una persona o un'AI senza contesto):
 
 1. **[CONTEXT.md](CONTEXT.md)** — chi sono, obiettivo, metodo e regole
-2. **[GUIDE.md](GUIDE.md)** — come guidarmi: scegliere il prossimo step, presentarlo, aggiornare il repo
-3. **[PROGRESS.md](PROGRESS.md)** — a che punto sono, punti deboli, ultimo step fatto
-4. **[REQUIREMENTS.md](REQUIREMENTS.md)** — cosa chiedono gli annunci e il mio livello su ogni voce
+2. **[COURSE.md](COURSE.md)** — il programma: moduli, argomenti, come funzionano esami e lezioni
+3. **[GUIDE.md](GUIDE.md)** — come guidarmi: scegliere il prossimo step, condurre esami e lezioni, aggiornare il repo
+4. **[PROGRESS.md](PROGRESS.md)** — stato del corso e punto esatto in cui sono
+5. **[REQUIREMENTS.md](REQUIREMENTS.md)** — cosa chiedono gli annunci e il mio livello su ogni voce
 
 Per iniziare una nuova chat basta passare il link del repo e chiedere: *"Leggi CLAUDE.md e dimmi qual è il prossimo step"*.
 
@@ -22,21 +23,19 @@ dotnet-roadmap/
 ├── README.md         → questa pagina: introduzione e indice
 ├── CLAUDE.md         → punto di ingresso per un'AI
 ├── CONTEXT.md        → obiettivo, metodo, regole
+├── COURSE.md         → il programma del corso: moduli, argomenti, esami
 ├── GUIDE.md          → come guidarmi sessione per sessione
-├── PROGRESS.md       → stato attuale, log degli step, verifiche
+├── PROGRESS.md       → stato del corso, punto in cui sono, log
 ├── REQUIREMENTS.md   → requisiti degli annunci (Must / Should / Nice) e mio livello
-├── csharp/           → C#, OOP, LINQ, async (creata al primo step)
-├── backend/          → ASP.NET Core, API, DI, EF Core (creata al primo step)
-├── sql/              → query ed esercizi T-SQL (creata al primo step)
-├── git/              → appunti ed esercizi Git (creata al primo step)
+├── course/           → una cartella per modulo: esami, appunti delle lezioni, esercizi (creata al primo modulo)
 ├── leetcode/         → algoritmi e strutture dati in C# (roadmap, lezioni, soluzioni)
 └── localquest/       → documenti di riferimento (roadmap PDF precedenti, SideQuest)
 ```
 
-Ogni cartella ha (o avrà) un suo README con l'indice degli step fatti in quell'area.
+Ogni cartella di modulo ha un README con l'indice di esami, lezioni ed esercizi.
 
 ## Come si aggiorna
 
-- A ogni step finito: il codice o gli appunti nella cartella dell'area, una riga nel log di [PROGRESS.md](PROGRESS.md), la data "ultima volta" dell'argomento aggiornata.
-- A ogni verifica: il risultato in [PROGRESS.md](PROGRESS.md#verifiche) e i livelli aggiornati in [REQUIREMENTS.md](REQUIREMENTS.md).
+- A ogni step finito: esami, appunti ed esercizi nella cartella del modulo (`course/NN-nome/`), stato e punto esatto in [PROGRESS.md](PROGRESS.md).
+- A ogni modulo superato: il livello aggiornato in [REQUIREMENTS.md](REQUIREMENTS.md).
 - Ogni 6–8 settimane: revisione dei requisiti in base agli annunci reali.

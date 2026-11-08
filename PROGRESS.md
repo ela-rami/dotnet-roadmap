@@ -4,39 +4,45 @@
 
 ## Stato attuale
 
-- **Fase:** inizio. Test di piazzamento fatto il 27 ottobre; il primo step pratico deve ancora partire.
-- **Focus:** solo requisiti Must, partendo dalle lacune con step piccoli e isolati.
-- **Priorità di partenza:** LINQ (usando l'SQL come ponte), dependency injection, EF Core (IQueryable, N+1), Git, alternati a LeetCode.
+- **Metodo (dall'8 novembre 2026):** corso strutturato a moduli, vedi [COURSE.md](COURSE.md). Ogni modulo: esame d'ingresso completo → studio solo dei buchi → esame finale completo. Si parte dalle basi: ripassare non fa male, e quello che so già lo supero in fretta all'esame.
+- **Modulo in corso:** Modulo 0 — Fondamenta di C#.
+- **Punto esatto:** esame d'ingresso del Modulo 0, parte 1, da iniziare.
 - **LeetCode:** stato dettagliato in [leetcode/CONTEXT.md](leetcode/CONTEXT.md) — lezione 2 (Arrays and strings) a metà, prossimo: step 7.
-- **Step in corso:** Step 1 — LINQ di base. Prima una lezione a piccoli passi (richiesta l'8 novembre: partire da zero con l'esercizio non funzionava), poi l'esercizio SQL → LINQ.
 
-## Ultima volta per argomento
+## Stato del corso
 
-Serve a capire cosa si sta arrugginendo e va ripreso.
+🟢 superato · 🟡 in corso · ⬜ da iniziare
 
-| Argomento | Ultima volta | Note |
-| --- | --- | --- |
-| C# fondamentali | 27 ott 2026 (test) | |
-| OOP | 27 ott 2026 (test) | |
-| LINQ | 27 ott 2026 (test) | |
-| API / HTTP | 27 ott 2026 (test) | |
-| Dependency injection | 26 ott 2026 (test) | |
-| EF Core | 27 ott 2026 (test) | |
-| SQL | 27 ott 2026 (test) | |
-| Git | 26 ott 2026 (test) | |
-| LeetCode | 27 ott 2026 (test) | Lezioni: vedi leetcode/ |
-
-## Log degli step
-
-| # | Data | Area | Step | Esito |
+| Modulo | Stato | Esame d'ingresso | Esame finale | Note |
 | --- | --- | --- | --- | --- |
-| 1 | 29 ott 2026 | LINQ | Tradurre 5 query SQL in LINQ su dati di produzione in memoria (`csharp/01-linq-basics`) | In corso — lezione LINQ avviata l'8 nov (parte 1: cos'è LINQ e le lambda), poi esercizio |
+| 0 — Fondamenta di C# | 🟡 | da fare | — | |
+| 1 — OOP in C# | ⬜ | | | |
+| 2 — C# intermedio | ⬜ | | | |
+| 3 — SQL e SQL Server | ⬜ | | | |
+| 4 — LINQ | ⬜ | | | Lezione già avviata l'8 nov (parte 1: cos'è LINQ e le lambda) |
+| 5 — Git e GitHub | ⬜ | | | |
+| 6 — HTTP e REST | ⬜ | | | |
+| 7 — ASP.NET Core Web API | ⬜ | | | |
+| 8 — Entity Framework Core | ⬜ | | | Fine della soglia di candidabilità |
+| 9 — Testing | ⬜ | | | |
+| 10 — Design e architettura | ⬜ | | | |
+| 11 — Sicurezza delle API | ⬜ | | | |
+| 12 — Docker | ⬜ | | | |
+| 13 — CI/CD e Azure | ⬜ | | | |
+| 14 — Agile e lavoro in team | ⬜ | | | |
+
+## Log
+
+| # | Data | Modulo | Cosa | Esito |
+| --- | --- | --- | --- | --- |
+| 1 | 29 ott – 8 nov 2026 | LINQ | Esercizio SQL → LINQ, poi lezione LINQ parte 1 | Superato dal nuovo metodo: LINQ si fa nel Modulo 4. L'esercizio resta valido per quel modulo |
+| 2 | 8 nov 2026 | — | Passaggio al corso strutturato a moduli (COURSE.md) | Fatto |
 
 ## Verifiche
 
 | Data | Tipo | Risultato |
 | --- | --- | --- |
-| 26–27 ott 2026 | Test di piazzamento | Vedi sotto |
+| 26–27 ott 2026 | Test di piazzamento (generale) | Vedi sotto: serve come prima idea, i moduli fanno comunque il proprio esame completo |
 
 ### Test di piazzamento — 27 ottobre 2026
 

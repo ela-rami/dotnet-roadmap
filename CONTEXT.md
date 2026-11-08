@@ -15,16 +15,17 @@ Questo file è per chiunque (persona o AI) riprenda a guidare il mio percorso. D
 - **Dopo il backend:** frontend (per diventare full stack), poi cloud/DevOps.
 - **Il problema da risolvere:** al lavoro uso molto l'AI. Conosco tanti concetti e li uso, ma non so ancora **spiegarli bene** né **scrivere il codice a mano** da solo. Questo percorso serve a passare da "lo uso" a "lo so spiegare e scrivere".
 
-## Metodo: dinamico, a piccoli step
+## Metodo: un corso strutturato, con esami prima dello studio
 
-1. **Inizio sessione:** chiedo "qual è il prossimo step?". Chi mi guida sceglie lo step più utile in quel momento guardando PROGRESS.md e REQUIREMENTS.md.
-2. **Step piccoli.** Un concetto o un esercizio alla volta. Se non lo finisco, lo riprendo la volta dopo dallo stesso punto.
-3. **All'inizio solo i requisiti Must**, in parallelo, senza frontend. Si parte dalle lacune, con task piccoli e isolati; quando un concetto è solido si combina con gli altri in task più grandi e poi nel progetto.
-4. **Alternare gli argomenti** (C#, SQL, API, EF Core, Git, LeetCode, teoria) per non annoiarmi.
-5. **Riprendere gli argomenti già fatti** quando si arrugginiscono, possibilmente collegati a quello che sto facendo (es. una query SQL che serve all'endpoint su cui lavoro). La colonna "ultima volta" in PROGRESS.md serve a questo.
-6. **Verifiche** ogni 6–8 step: mini colloqui simulati che mescolano teoria a parole (anche in inglese), un esercizio di codice a tempo e una query SQL.
-7. **Concetti spiegati con casi concreti**, non definizioni da manuale: molta teoria l'ho studiata a memoria per gli esami e la capisco davvero solo quando vedo a cosa serve.
-8. I requisiti in REQUIREMENTS.md si rivedono ogni 6–8 settimane, non a ogni sessione.
+Il programma completo è in [COURSE.md](COURSE.md). In breve:
+
+1. **Moduli in ordine, dalle basi** (C#, OOP, SQL, LINQ, Git, HTTP, ASP.NET Core, EF Core, poi testing, design, sicurezza, Docker, cloud, Agile). Non si salta niente: ripassare non fa male.
+2. **Ogni modulo parte con un esame COMPLETO** su tutti gli argomenti. Quello che so già lo supero in fretta; dove ho lacune si studia solo quella parte.
+3. **Lezioni a piccoli passi**, un concetto alla volta, con casi concreti e non definizioni da manuale: molta teoria l'ho studiata a memoria per gli esami e la capisco davvero solo quando vedo a cosa serve.
+4. **Esame finale completo** per chiudere il modulo; dal Modulo 2 include domande di ripasso dei moduli precedenti.
+5. **Step piccoli:** inizio ogni sessione con "qual è il prossimo step?". Se non finisco uno step, lo riprendo la volta dopo dallo stesso punto.
+6. **LeetCode in parallelo**, circa uno step ogni tre, per variare.
+7. I requisiti in REQUIREMENTS.md si rivedono ogni 6–8 settimane, non a ogni sessione.
 
 ## Regole
 
