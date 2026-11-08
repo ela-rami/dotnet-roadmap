@@ -22,6 +22,7 @@ Lo stato di ogni modulo è in [PROGRESS.md](PROGRESS.md#stato-del-corso). Il col
 ## Gli esami
 
 - **Completi:** almeno una domanda per ogni argomento della checklist del modulo. Nessun argomento viene dato per scontato.
+- **Al mio livello, non da principiante:** ho una laurea in informatica e un anno di lavoro, quindi niente domande banali. Domande dense e un po' insidiose che combinano più argomenti insieme (es. un solo snippet che tocca conversioni, overflow e uguaglianza). Se una domanda densa va bene, copre tutti gli argomenti che tocca.
 - **Divisi in parti** da ~20–30 minuti (es. "Esame Modulo 0 — parte 1/3"), così si possono fare anche in sessioni brevi.
 - **Tipi di domanda, mescolati:**
   - teoria a parole, come a un colloquio (alcune **in inglese**)
