@@ -23,13 +23,13 @@ Lo stato di ogni modulo è in [PROGRESS.md](PROGRESS.md#stato-del-corso). Il col
 
 - **Completi:** almeno una domanda per ogni argomento della checklist del modulo. Nessun argomento viene dato per scontato.
 - **Al mio livello, non da principiante:** ho una laurea in informatica e un anno di lavoro, quindi niente domande banali. Domande dense e un po' insidiose che combinano più argomenti insieme (es. un solo snippet che tocca conversioni, overflow e uguaglianza). Se una domanda densa va bene, copre tutti gli argomenti che tocca.
-- **Divisi in parti** da ~20–30 minuti (es. "Esame Modulo 0 — parte 1/3"), così si possono fare anche in sessioni brevi.
-- **Tipi di domanda, mescolati:**
-  - teoria a parole, come a un colloquio (alcune **in inglese**)
-  - "cosa stampa questo codice e perché?"
-  - scrivere codice a mano, senza autocompletamento né AI
-  - trovare e correggere un bug
-  - per problemi vaghi: fare prima le domande di chiarimento
+- **Ogni esame (d'ingresso e finale) ha due parti:**
+  - **Parte A — Domande**, divise in blocchi da ~20–30 minuti (es. "Esame Modulo 0 — domande 1/3"). Tipi mescolati:
+    - teoria a parole, come a un colloquio (alcune **in inglese**)
+    - "cosa stampa questo codice e perché?"
+    - trovare e correggere un bug
+    - scrivere a mano un pezzo di codice breve
+  - **Parte B — Assignment**: un piccolo programma realistico (meglio se dal mondo gestionale/industriale) che usa **insieme** gli argomenti del modulo, con una specifica precisa come in un take-home da colloquio. 30–90 minuti, scritto a mano nel mio editor senza AI, consegnato nel repo (`course/NN-nome/assignments/`). Valutato su: correttezza, casi limite, leggibilità, e la mia spiegazione delle scelte. Se la specifica è volutamente incompleta, prima faccio le domande di chiarimento.
 - **Senza aiuti.** Un argomento è 🟢 solo se la risposta è giusta *e* so spiegare il perché. Imprecisioni di sintassi minori non contano.
 - **Ripasso cumulativo:** dall'esame finale del Modulo 2 in poi, ogni esame finale include 2–3 domande dei moduli precedenti.
 - I risultati vanno in `course/NN-nome/esami.md` e la sintesi in PROGRESS.md.

@@ -37,7 +37,8 @@ Poi si parte subito.
 
 ## Come condurre un esame
 
-- Segui le regole di [COURSE.md](COURSE.md#gli-esami): completo, diviso in parti, tipi di domanda mescolati, alcune in inglese.
+- Segui le regole di [COURSE.md](COURSE.md#gli-esami): completo, Parte A domande (a blocchi, tipi mescolati, alcune in inglese) + Parte B assignment.
+- Per l'assignment: scrivi una specifica precisa, aspetta che consegni il codice, poi revisione e valutazione.
 - **Una domanda alla volta.** Aspetta la mia risposta prima di passare alla successiva. Non dare la soluzione subito.
 - Alla fine di ogni parte: correzione argomento per argomento (cosa era giusto, cosa no, perché), con il livello 🟢/🟡/🔴.
 - Sii severo: 🟢 solo se la risposta è giusta e so spiegare il perché. Meglio scoprire un buco ora che a un colloquio.
@@ -59,6 +60,7 @@ Se hai accesso in scrittura, aggiorna tu; altrimenti dammi il testo da incollare
    - `esami.md` — domande, mie risposte, correzione e livello per argomento
    - `lezioni.md` — appunti completi delle lezioni, con mie domande e correzioni
    - `esercizi/` — il mio codice, con in testa obiettivo, errori trovati in revisione e cosa ho imparato
+   - `assignments/` — gli assignment degli esami: specifica, il mio codice, revisione e valutazione
 2. **[PROGRESS.md](PROGRESS.md):** stato del corso, punto esatto da cui riprendere, una riga nel log.
 3. **[REQUIREMENTS.md](REQUIREMENTS.md):** aggiorna il livello di un'area quando un modulo viene superato.
 4. **LeetCode:** segui le regole di [leetcode/README.md](leetcode/README.md).
