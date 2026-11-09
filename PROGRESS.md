@@ -6,7 +6,7 @@
 
 - **Metodo (dall'8 novembre 2026):** corso strutturato a moduli, vedi [COURSE.md](COURSE.md). Ogni modulo: esame d'ingresso completo → studio solo dei buchi → esame finale completo. Si parte dalle basi: ripassare non fa male, e quello che so già lo supero in fretta all'esame.
 - **Modulo in corso:** Modulo 0 — Fondamenta di C#.
-- **Punto esatto:** esame d'ingresso del Modulo 0 — Parte A, domande blocco 1/3, domanda 1 (snippet su divisione intera, overflow, uguaglianza object/string). Poi Parte B: assignment.
+- **Punto esatto:** esame d'ingresso del Modulo 0 — Parte A, blocco 1/3, domanda 2 (vedi [course/00-fondamenta-csharp/esami.md](course/00-fondamenta-csharp/esami.md)). Correzione del blocco alla fine. Poi blocchi 2–3 e Parte B: assignment.
 - **LeetCode:** stato dettagliato in [leetcode/CONTEXT.md](leetcode/CONTEXT.md) — lezione 2 (Arrays and strings) a metà, prossimo: step 7.
 
 ## Stato del corso
@@ -15,7 +15,7 @@
 
 | Modulo | Stato | Esame d'ingresso | Esame finale | Note |
 | --- | --- | --- | --- | --- |
-| 0 — Fondamenta di C# | 🟡 | da fare | — | |
+| 0 — Fondamenta di C# | 🟡 | in corso (blocco 1/3) | — | |
 | 1 — OOP in C# | ⬜ | | | |
 | 2 — C# intermedio | ⬜ | | | |
 | 3 — SQL e SQL Server | ⬜ | | | |
