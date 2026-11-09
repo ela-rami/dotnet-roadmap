@@ -196,10 +196,11 @@ if (TryParsePositive("42", out int n))
 | Tipi primitivi, conversioni e cast | 🟡 risultato giusto, spiegazione imprecisa |
 | Overflow, `checked`, espressioni costanti | 🔴 |
 | Operatori: `++` prefisso/postfisso | 🔴 |
-| Operatori: short-circuit `&&` vs `&` | 🟡 |
-| `==` vs `Equals`, boxing | 🔴 (string 🟢) |
+| Operatori: short-circuit `&&` vs `&` | 🟡 dice di intendere lo short-circuit; da confermare la conseguenza con `&` |
+| `Equals` su tipi valore boxati | 🟢 concetto giusto; risposta sbagliata per distrazione (chiarito il 9 nov) |
+| `==` su `object` e boxing (confronto per riferimento) | 🔴 (string 🟢) |
 | Controllo di flusso: cicli, `continue`/`break`, switch expression | 🟢 |
-| Metodi: passaggio per valore e `ref` | 🟡 concetto giusto, valori letti male |
+| Metodi: passaggio per valore e `ref` | 🟢 concetto giusto; valori letti male per distrazione (chiarito il 9 nov) |
 | Metodi: tipo riferimento passato per valore | 🔴 |
 | Metodi: parametri opzionali e nominati | 🔴 |
 | Metodi: `out` e pattern TryParse | 🔴 |

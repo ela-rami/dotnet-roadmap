@@ -15,7 +15,7 @@
 
 | Modulo | Stato | Esame d'ingresso | Esame finale | Note |
 | --- | --- | --- | --- | --- |
-| 0 — Fondamenta di C# | 🟡 | in corso: blocco 1/3 fatto | — | Blocco 1: 🟢 flusso; 🔴 overflow, ++, ==/Equals e boxing, parametri nominati, out/TryParse |
+| 0 — Fondamenta di C# | 🟡 | in corso: blocco 1/3 fatto | — | Blocco 1: 🟢 flusso, ref/valore, Equals; 🔴 overflow, ++, == su object e boxing, riferimenti passati per valore, parametri nominati, out/TryParse |
 | 1 — OOP in C# | ⬜ | | | |
 | 2 — C# intermedio | ⬜ | | | |
 | 3 — SQL e SQL Server | ⬜ | | | |
