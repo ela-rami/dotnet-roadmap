@@ -41,4 +41,55 @@ Bonus: non ancora risposto.
 
 #### Domanda 2 — metodi e passaggio dei parametri
 
+**a)** Cosa stampa ogni riga, e perché?
+
+```csharp
+static void A(int n) { n = 10; }
+static void B(ref int n) { n = 20; }
+static void C(int[] arr) { arr[0] = 30; arr = new int[] { 99 }; }
+static string Greet(string name, string greeting = "Hello") => $"{greeting}, {name}!";
+
+int x = 1;
+A(x);
+Console.WriteLine(x);                                   // riga 1
+B(ref x);
+Console.WriteLine(x);                                   // riga 2
+
+int[] nums = { 1, 2, 3 };
+C(nums);
+Console.WriteLine(nums[0]);                             // riga 3
+
+Console.WriteLine(Greet(greeting: "Hi", name: "Elias")); // riga 4
+```
+
+**b)** Scrivere a mano `static bool TryParsePositive(string? s, out int value)`: `true` e il numero in `value` se `s` è un intero > 0; altrimenti `false` e `value = 0` (null, vuoto, testo, zero, negativi); non deve mai lanciare eccezioni. Più una riga che la chiama.
+
+**Mie risposte (9 nov):**
+
+a)
+1. `5` — "A usa una copia del valore"
+2. `10` — "cambia il valore originale con ref"
+3. "Non sono sicuro"
+4. `Hello Elias!` — "Hi è stato cambiato in Hello, e il metodo è direttamente dentro WriteLine"
+
+b)
+```csharp
+static bool TryParsePositive(string? s, out int value){
+if(int32.Parse(s) > 0){
+value = s;
+return true;
+}
+else{
+value =  0;
+reurn false;
+}
+int value = -1;
+Console.WriteLine(TryParsePositive("5"));
+Console.WriteLine(value);
+```
+
+**Correzione:** a fine blocco.
+
+#### Domanda 3 — controllo di flusso e operatori
+
 *(in corso)*
