@@ -196,7 +196,7 @@ if (TryParsePositive("42", out int n))
 | Tipi primitivi, conversioni e cast | 🟡 risultato giusto, spiegazione imprecisa |
 | Overflow, `checked`, espressioni costanti | 🔴 |
 | Operatori: `++` prefisso/postfisso | 🔴 |
-| Operatori: short-circuit `&&` vs `&` | 🟡 dice di intendere lo short-circuit; da confermare la conseguenza con `&` |
+| Operatori: short-circuit `&&` vs `&` | 🟡 capisce che `&&` salta il secondo lato; non conosce `&` (verificato il 9 nov) |
 | `Equals` su tipi valore boxati | 🟢 concetto giusto; risposta sbagliata per distrazione (chiarito il 9 nov) |
 | `==` su `object` e boxing (confronto per riferimento) | 🔴 (string 🟢) |
 | Controllo di flusso: cicli, `continue`/`break`, switch expression | 🟢 |
@@ -205,3 +205,47 @@ if (TryParsePositive("42", out int n))
 | Metodi: parametri opzionali e nominati | 🔴 |
 | Metodi: `out` e pattern TryParse | 🔴 |
 | Eccezioni di `Parse` vs `TryParse` | 🔴 (si riverifica nel blocco 3) |
+
+### Parte A — Domande, blocco 2/3 (9 novembre 2026)
+
+Argomenti del blocco: stringhe, array, collezioni, null e nullable.
+
+#### Domanda 1 — stringhe, array, operatori null
+
+```csharp
+string s = "Pressa";
+s.ToUpper();
+string t = s;
+t += "1";
+Console.WriteLine(s);                                                       // riga 1
+Console.WriteLine(t);                                                       // riga 2
+
+Console.WriteLine("abc" == "ABC");                                          // riga 3
+Console.WriteLine(string.Equals("abc", "ABC", StringComparison.OrdinalIgnoreCase)); // riga 4
+
+string? code = null;
+Console.WriteLine(code?.Length ?? -1);                                      // riga 5
+Console.WriteLine(code?.Length);                                            // riga 6
+
+int[,] grid = new int[2, 3];
+int[][] jagged = new int[2][];
+Console.WriteLine(grid.Length);                                             // riga 7
+Console.WriteLine(jagged[1] == null);                                       // riga 8
+```
+
+In più (teoria): `report += line;` in un ciclo da 10.000 iterazioni — perché è lento e cosa usare?
+
+**Mie risposte (9 nov):**
+1. `PRESSA` — "per via di ToUpper"
+2. non so
+3. `False` — "non è maiuscolo, il codice ASCII di a è diverso da A"
+4. `True` — "per OrdinalIgnoreCase"
+5. `-1` — "?? dice: se null allora -1"
+6. `null`, "senza drammi grazie al primo ?"
+7. `2` — "Length è la prima dimensione"
+8. non sono sicuro
+In più: non risposto.
+
+#### Domanda 2 — collezioni
+
+*(in corso)*
