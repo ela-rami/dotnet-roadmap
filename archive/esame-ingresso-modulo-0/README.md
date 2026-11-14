@@ -1,6 +1,6 @@
 # Modulo 0 — Fondamenta di C#
 
-Checklist degli argomenti: vedi [COURSE.md](../../COURSE.md#modulo-0--fondamenta-di-c).
+**Archivio.** Esame d'ingresso del vecchio "Modulo 0", fatto l'8–9 novembre 2026 e interrotto il 14 novembre, quando il percorso è passato al corso a lezioni (vedi [docs/how-it-works.md](../../docs/how-it-works.md)). I risultati servono come diagnosi: dicono dove insistere con esercizi nella sezione 1 del corso.
 
 | File | Contenuto |
 | --- | --- |

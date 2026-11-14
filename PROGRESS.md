@@ -1,43 +1,31 @@
 # Progress
 
-*Ultimo aggiornamento: 8 novembre 2026*
+*Ultimo aggiornamento: 14 novembre 2026*
 
 ## Stato attuale
 
-- **Metodo (dall'8 novembre 2026):** corso strutturato a moduli, vedi [COURSE.md](COURSE.md). Ogni modulo: esame d'ingresso completo → studio solo dei buchi → esame finale completo. Si parte dalle basi: ripassare non fa male, e quello che so già lo supero in fretta all'esame.
-- **Modulo in corso:** Modulo 0 — Fondamenta di C#.
-- **Punto esatto:** esame d'ingresso del Modulo 0 — Parte A, blocco 1/3 completato e corretto il 9 nov (vedi [course/00-fondamenta-csharp/esami.md](course/00-fondamenta-csharp/esami.md)). Blocco 2/3 (stringhe, array, collezioni, null e nullable) in corso: domanda 2. Poi blocco 3/3 (eccezioni, scope, const/readonly) e Parte B: assignment.
-- **LeetCode:** stato dettagliato in [leetcode/CONTEXT.md](leetcode/CONTEXT.md) — lezione 2 (Arrays and strings) a metà, prossimo: step 7.
+- **Metodo (dal 14 novembre 2026):** corso da zero a lezioni, una lezione alla volta scelta dal tutor, con esercizi a fine lezione. Lezioni in inglese sul sito ([docs/](docs/), pubblicato su GitHub Pages). Vedi [CONTEXT.md](CONTEXT.md) e [GUIDE.md](GUIDE.md).
+- **Sezione in corso:** 1 · C# Fundamentals.
+- **Lezione in corso:** 1.1 — How a C# program runs ([docs/csharp-fundamentals/01-how-a-csharp-program-runs.md](docs/csharp-fundamentals/01-how-a-csharp-program-runs.md)). Pubblicata il 14 nov.
+- **Punto esatto:** esercizi della lezione 1.1 da fare (in `exercises/01-csharp-fundamentals/1.1-how-a-csharp-program-runs/`), poi revisione in chat.
+- **Punti deboli da riprendere** (dall'esame d'ingresso in [archive/](archive/esame-ingresso-modulo-0/esami.md)): overflow e `checked`; `++` prefisso/postfisso; `&` vs `&&`; boxing e `==` su `object`; riferimenti passati per valore; parametri nominati e opzionali; `out` e pattern TryParse; collezioni oltre `List` e array (non le ricorda); immutabilità delle stringhe (`ToUpper()` senza assegnare).
+- **LeetCode:** fermo alla lezione 2 (Arrays and strings), step 7 ([leetcode/CONTEXT.md](leetcode/CONTEXT.md)). Si riprende dopo aver rivisto le collezioni nella sezione 1.
 
-## Stato del corso
+## Lezioni
 
-🟢 superato · 🟡 in corso · ⬜ da iniziare
-
-| Modulo | Stato | Esame d'ingresso | Esame finale | Note |
-| --- | --- | --- | --- | --- |
-| 0 — Fondamenta di C# | 🟡 | in corso: blocco 1/3 fatto | — | Blocco 1: 🟢 flusso, ref/valore, Equals; 🔴 overflow, ++, == su object e boxing, riferimenti passati per valore, parametri nominati, out/TryParse |
-| 1 — OOP in C# | ⬜ | | | |
-| 2 — C# intermedio | ⬜ | | | |
-| 3 — SQL e SQL Server | ⬜ | | | |
-| 4 — LINQ | ⬜ | | | Lezione già avviata l'8 nov (parte 1: cos'è LINQ e le lambda) |
-| 5 — Git e GitHub | ⬜ | | | |
-| 6 — HTTP e REST | ⬜ | | | |
-| 7 — ASP.NET Core Web API | ⬜ | | | |
-| 8 — Entity Framework Core | ⬜ | | | Fine della soglia di candidabilità |
-| 9 — Testing | ⬜ | | | |
-| 10 — Design e architettura | ⬜ | | | |
-| 11 — Sicurezza delle API | ⬜ | | | |
-| 12 — Docker | ⬜ | | | |
-| 13 — CI/CD e Azure | ⬜ | | | |
-| 14 — Agile e lavoro in team | ⬜ | | | |
+| Lezione | Pubblicata | Esercizi | Note |
+| --- | --- | --- | --- |
+| 1.1 How a C# program runs | 14 nov 2026 | da fare | |
 
 ## Log
 
-| # | Data | Modulo | Cosa | Esito |
-| --- | --- | --- | --- | --- |
-| 1 | 29 ott – 8 nov 2026 | LINQ | Esercizio SQL → LINQ, poi lezione LINQ parte 1 | Superato dal nuovo metodo: LINQ si fa nel Modulo 4. L'esercizio resta valido per quel modulo |
-| 2 | 8 nov 2026 | — | Passaggio al corso strutturato a moduli (COURSE.md) | Fatto |
-| 3 | 8–9 nov 2026 | 0 | Esame d'ingresso, Parte A, blocco 1/3 (3 domande) | Fatto e corretto — vedi esami.md |
+| # | Data | Cosa | Esito |
+| --- | --- | --- | --- |
+| 1 | 29 ott – 8 nov 2026 | Esercizio SQL → LINQ, poi lezione LINQ parte 1 (in chat) | Sospeso: LINQ arriverà nella sezione 5 |
+| 2 | 8 nov 2026 | Passaggio al corso a moduli con esame d'ingresso | Sostituito il 14 nov |
+| 3 | 8–9 nov 2026 | Esame d'ingresso Modulo 0: blocco 1 (3 domande) corretto; blocco 2, domanda 1 risposta, domanda 2 iniziata | Interrotto; risultati archiviati come diagnosi in [archive/](archive/esame-ingresso-modulo-0/esami.md) |
+| 4 | 14 nov 2026 | Passaggio al corso da zero a lezioni, con sito MkDocs su GitHub Pages | Fatto |
+| 5 | 14 nov 2026 | Lezione 1.1 pubblicata | Esercizi da fare |
 
 ## Verifiche
 

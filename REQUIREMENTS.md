@@ -4,7 +4,7 @@
 
 Fonte: scansione di annunci junior .NET/C# a Vienna e in Austria (devjobs.at, jobs.at, Indeed AT) e di annunci junior remoti in Europa e UK. È un campione, non un'analisi rigorosa: va raffinato con annunci reali salvati da LinkedIn.
 
-**Livello** = stima di partenza dal test di piazzamento del 27 ottobre (dettagli in [PROGRESS.md](PROGRESS.md#test-di-piazzamento--27-ottobre-2026)). Si aggiorna quando il modulo corrispondente di [COURSE.md](COURSE.md) viene superato.
+**Livello** = stima di partenza dal test di piazzamento del 27 ottobre (dettagli in [PROGRESS.md](PROGRESS.md#test-di-piazzamento--27-ottobre-2026)). Si aggiorna quando la sezione corrispondente del corso ([docs/course-map.md](docs/course-map.md)) viene chiusa.
 
 🟢 solido · 🟡 da ripassare · 🟠 lacuna pratica · 🔴 lacuna · ⚪ non ancora verificato
 

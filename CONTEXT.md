@@ -15,17 +15,15 @@ Questo file è per chiunque (persona o AI) riprenda a guidare il mio percorso. D
 - **Dopo il backend:** frontend (per diventare full stack), poi cloud/DevOps.
 - **Il problema da risolvere:** al lavoro uso molto l'AI. Conosco tanti concetti e li uso, ma non so ancora **spiegarli bene** né **scrivere il codice a mano** da solo. Questo percorso serve a passare da "lo uso" a "lo so spiegare e scrivere".
 
-## Metodo: un corso strutturato, con esami prima dello studio
+## Metodo: un corso da zero, una lezione alla volta (dal 14 novembre 2026)
 
-Il programma completo è in [COURSE.md](COURSE.md). In breve:
-
-1. **Moduli in ordine, dalle basi** (C#, OOP, SQL, LINQ, Git, HTTP, ASP.NET Core, EF Core, poi testing, design, sicurezza, Docker, cloud, Agile). Non si salta niente: ripassare non fa male.
-2. **Ogni modulo parte con un esame COMPLETO** su tutti gli argomenti. Quello che so già lo supero in fretta; dove ho lacune si studia solo quella parte.
-3. **Lezioni a piccoli passi**, un concetto alla volta, con casi concreti e non definizioni da manuale: molta teoria l'ho studiata a memoria per gli esami e la capisco davvero solo quando vedo a cosa serve.
-4. **Esame finale completo** per chiudere il modulo; dal Modulo 2 include domande di ripasso dei moduli precedenti.
-5. **Step piccoli:** inizio ogni sessione con "qual è il prossimo step?". Se non finisco uno step, lo riprendo la volta dopo dallo stesso punto.
-6. **LeetCode in parallelo**, circa uno step ogni tre, per variare.
-7. I requisiti in REQUIREMENTS.md si rivedono ogni 6–8 settimane, non a ogni sessione.
+1. **Corso stile Udemy, dalle basi**: lezioni con spiegazione, esempi concreti ed **esercizi a fine lezione** scritti da me. Si ripassa anche quello che so già (male non fa), ma più in fretta. Le cose inutili per l'obiettivo si saltano.
+2. **Niente programma fisso da seguire.** L'obiettivo è fisso; la [mappa di copertura](docs/course-map.md) dice cosa va coperto entro la fine. **La lezione successiva si decide ogni volta**, in base a come è andata la precedente, ai miei commenti e a cosa si sta arrugginendo.
+3. **Gli appunti sono un sito**: le lezioni, in inglese, sono pagine Markdown in `docs/`, pubblicate con MkDocs Material su GitHub Pages, così le leggo ovunque.
+4. **A fine sezione**: un quiz e un piccolo assignment realistico.
+5. **LeetCode e algoritmi in parallelo**, quando il tutor lo ritiene utile (non prima di aver ripreso le collezioni nella sezione 1).
+6. **Commenti:** dopo le lezioni dico cosa va e cosa no; le lezioni si correggono e si arricchiscono di conseguenza. Si cambiano i contenuti, non il metodo.
+7. I requisiti in REQUIREMENTS.md si rivedono ogni 6–8 settimane.
 
 ## Regole
 
@@ -39,5 +37,6 @@ Il programma completo è in [COURSE.md](COURSE.md). In breve:
 
 ## Materiale di riferimento
 
-- [leetcode/roadmap.md](leetcode/roadmap.md) — roadmap LeetCode per pattern, con la teoria da sapere.
+- [leetcode/roadmap.md](leetcode/roadmap.md) — roadmap LeetCode per pattern: riserva di problemi, non una scaletta da seguire.
+- `archive/` — l'esame d'ingresso del vecchio Modulo 0 (8–9 novembre): i risultati sono una diagnosi utile per la sezione 1.
 - `localquest/` — la roadmap PDF "Backend .NET → Cloud" e SideQuest v1.2: non si seguono più in ordine, servono come riserva di task e mappa delle competenze.

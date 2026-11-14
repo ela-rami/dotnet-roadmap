@@ -1,73 +1,72 @@
 # Guida per chi mi guida (persona o AI)
 
-Questo file dice **come** guidarmi sessione per sessione. Il **perché** e le regole sono in [CONTEXT.md](CONTEXT.md), il **programma** in [COURSE.md](COURSE.md), lo **stato** in [PROGRESS.md](PROGRESS.md).
+Come guidarmi sessione per sessione. Il **perché** e le regole sono in [CONTEXT.md](CONTEXT.md), cosa va coperto in [docs/course-map.md](docs/course-map.md), lo **stato** in [PROGRESS.md](PROGRESS.md).
 
 ## All'inizio di ogni sessione
 
 Leggi, in quest'ordine:
 
 1. [CONTEXT.md](CONTEXT.md) — obiettivo, metodo, regole
-2. [COURSE.md](COURSE.md) — moduli, checklist degli argomenti, come funzionano esami e lezioni
-3. [PROGRESS.md](PROGRESS.md) — stato del corso, punto esatto in cui sono, log
-4. La cartella del modulo in corso (`course/NN-nome/`): esami fatti, appunti delle lezioni
-5. [leetcode/CONTEXT.md](leetcode/CONTEXT.md) — solo se lo step riguarda LeetCode
+2. [PROGRESS.md](PROGRESS.md) — dove sono, ultima lezione, esito degli esercizi, punti deboli
+3. [docs/course-map.md](docs/course-map.md) — cosa è coperto e cosa manca
+4. L'ultima lezione in `docs/` e i miei esercizi in `exercises/`
+5. [leetcode/CONTEXT.md](leetcode/CONTEXT.md) — solo se si fa LeetCode
 
-Poi rispondi alla mia domanda tipica: **"qual è il prossimo step?"**
+Le mie frasi tipiche: **"andiamo avanti"** / **"qual è il prossimo step?"**. Non rifare il piano e non propormi metodi nuovi: il metodo è deciso.
 
-Non rifare il piano e non propormi roadmap nuove: il corso è deciso. Il tuo lavoro è portarmi avanti nel corso.
+## Come scegliere la lezione successiva
 
-## Come scegliere il prossimo step
+Non c'è una scaletta. Ogni volta scegli tu, guardando:
 
-1. **Qualcosa a metà?** Se un esame, una lezione o un esercizio è "in corso" in PROGRESS.md, si riprende da lì, dal punto esatto annotato.
-2. **Altrimenti, il passo successivo del modulo in corso**, seguendo il flusso di COURSE.md: esame d'ingresso → correzione → studio dei soli argomenti 🟡/🔴 (un argomento alla volta) → esame finale.
-3. **Alterna con LeetCode:** circa uno step ogni tre è LeetCode (dalla sua roadmap), per variare.
-4. **Moduli in ordine.** Si passa al modulo successivo solo quando quello attuale è superato.
+1. **Esercizi in sospeso:** se non ho finito o consegnato gli esercizi dell'ultima lezione, prima quelli (revisione inclusa).
+2. **Come sono andati gli esercizi:** se un concetto non è entrato, una lezione o un esercizio di rinforzo prima di andare avanti.
+3. **I miei commenti** sulle lezioni.
+4. **Argomenti arrugginiti:** riprendili dentro la lezione nuova, collegandoli a quello che si sta facendo.
+5. **L'obiettivo:** colloqui da junior backend .NET. Prima le sezioni 1–9 (soglia di candidabilità), poi le altre.
+6. **Diagnosi dall'archivio:** l'esame d'ingresso dell'8–9 novembre ([archive/](archive/esame-ingresso-modulo-0/esami.md)) mostra i buchi: overflow e `checked`, `++` prefisso/postfisso, `&` vs `&&`, boxing e `==` su `object`, riferimenti passati per valore, parametri nominati/opzionali, `out` e TryParse, collezioni oltre `List` e array (non le ricorda), stringhe immutabili. Insisti lì con gli esercizi.
+7. **LeetCode:** decidi tu quando, non prima di aver ripreso le collezioni (sezione 1). Poi più o meno una sessione ogni tre, o un problema come esercizio di fine lezione quando c'entra.
 
-## Come presentare uno step
+## Come scrivere una lezione
 
-Breve, in italiano:
+Ogni lezione è una pagina Markdown **in inglese** in `docs/<sezione>/NN-titolo.md`, con questa struttura (vedi la lezione 1.1 come modello):
 
-```
-Step N — Modulo X: <titolo>
-Cosa facciamo: <esame parte k/n · lezione su <argomento> · esercizio · esame finale>
-Durata indicativa: <15–30 min>
-```
+1. **Goals** (admonition `abstract`)
+2. **Why this matters** — una riga sul perché serve ai colloqui o al lavoro
+3. **Spiegazione** divisa in paragrafi numerati: un concetto alla volta, esempi concreti (meglio dal mondo industriale/gestionale), tabelle e diagrammi Mermaid dove aiutano
+4. **"In an interview"** (admonition `question`): domanda tipica e risposta modello
+5. **Common mistakes**
+6. **Summary**
+7. **Exercises**: piccoli, concreti, con tempi indicativi, output attesi, cartella dove salvarli (`exercises/<sezione>/<lezione>/`). Indizi solo in blocchi richiudibili (`??? tip`). **Mai la soluzione nella pagina.**
+8. **Explain it**: domande da rispondere a parole, in inglese
+9. **Official docs**: link Microsoft Learn
 
-Poi si parte subito.
+Stile: chiaro, diretto, al mio livello (laurea + un anno di lavoro), senza fronzoli. Verifica i fatti che cambiano nel tempo (versioni, supporto) prima di scriverli.
 
-## Come condurre un esame
+Dopo aver scritto una lezione:
+- aggiungila al `nav` in [mkdocs.yml](mkdocs.yml) e alla tabella nell'`index.md` della sezione
+- aggiorna "Latest lesson" e la tabella "Where I am" in [docs/index.md](docs/index.md)
+- verifica con `mkdocs build --strict`
+- commit e push: il sito si aggiorna da solo (GitHub Actions → branch `gh-pages`)
 
-- Segui le regole di [COURSE.md](COURSE.md#gli-esami): completo, Parte A domande (a blocchi, tipi mescolati, alcune in inglese) + Parte B assignment.
-- Per l'assignment: scrivi una specifica precisa, aspetta che consegni il codice, poi revisione e valutazione.
-- **Una domanda alla volta.** Aspetta la mia risposta prima di passare alla successiva. Non dare la soluzione subito.
-- Alla fine di ogni parte: correzione argomento per argomento (cosa era giusto, cosa no, perché), con il livello 🟢/🟡/🔴.
-- Sii severo: 🟢 solo se la risposta è giusta e so spiegare il perché. Meglio scoprire un buco ora che a un colloquio.
+## Durante e dopo gli esercizi
 
-## Come condurre una lezione
-
-- Un concetto per messaggio: spiegazione breve, esempio concreto, poi stop. Io scrivo "avanti" o faccio domande.
-- Dopo ogni concetto, un mini esercizio che scrivo io.
-- Link alla pagina Microsoft Learn di riferimento.
 - **Il codice lo scrivo io.** Se sono bloccato: prima un indizio a parole, poi uno più preciso, solo alla fine la soluzione.
-- Quando consegno codice: revisione (cosa va, cosa no, perché), poi mi chiedi di spiegarlo.
-- Sii diretto sugli errori.
+- Quando consegno: revisione (cosa va, cosa no, perché), poi mi chiedi di spiegare quello che ho scritto. Sii diretto sugli errori.
+- Lingua: in chat italiano (o inglese se scrivo in inglese); lezioni e risposte "Explain it" in inglese.
+- Una domanda alla volta quando mi interroghi.
 
-## Alla fine di ogni step: aggiornare il repo
+## Fine sezione
 
-Se hai accesso in scrittura, aggiorna tu; altrimenti dammi il testo da incollare.
+Quiz (domande dense al mio livello: "cosa stampa", teoria a parole in parte in inglese, bug da trovare) + un assignment realistico che combina gli argomenti della sezione. Risultati in PROGRESS.md.
 
-1. **Nella cartella del modulo** (`course/NN-nome/`, creala se non c'è con un README che fa da indice):
-   - `esami.md` — domande, mie risposte, correzione e livello per argomento
-   - `lezioni.md` — appunti completi delle lezioni, con mie domande e correzioni
-   - `esercizi/` — il mio codice, con in testa obiettivo, errori trovati in revisione e cosa ho imparato
-   - `assignments/` — gli assignment degli esami: specifica, il mio codice, revisione e valutazione
-2. **[PROGRESS.md](PROGRESS.md):** stato del corso, punto esatto da cui riprendere, una riga nel log.
-3. **[REQUIREMENTS.md](REQUIREMENTS.md):** aggiorna il livello di un'area quando un modulo viene superato.
-4. **LeetCode:** segui le regole di [leetcode/README.md](leetcode/README.md).
-5. Commit con un messaggio chiaro (es. `Modulo 0: esame d'ingresso parte 1`).
+## Alla fine di ogni sessione: aggiornare il repo
 
-Se ti racconto cose che ho imparato altrove (al lavoro, da un video…), annotale in PROGRESS.md.
+1. [PROGRESS.md](PROGRESS.md): lezione in corso, stato degli esercizi, punto esatto da cui riprendere, una riga nel log, punti deboli emersi.
+2. [docs/course-map.md](docs/course-map.md): spunta gli argomenti coperti **e** esercitati.
+3. Lezioni: correggi o arricchisci in base ai miei commenti.
+4. [REQUIREMENTS.md](REQUIREMENTS.md): aggiorna un livello quando una sezione è chiusa.
+5. Commit con un messaggio chiaro (es. `Lesson 1.2: types and conversions`).
 
 ## Revisione dei requisiti
 
-Ogni 6–8 settimane (la data è in testa a [REQUIREMENTS.md](REQUIREMENTS.md)): controlla gli annunci reali junior .NET a Vienna e da remoto. Se emerge qualcosa che il corso non copre, proponi di aggiungerlo a COURSE.md.
+Ogni 6–8 settimane (data in testa a [REQUIREMENTS.md](REQUIREMENTS.md)): controlla gli annunci reali junior .NET a Vienna e da remoto. Se emerge qualcosa che la mappa non copre, proponi di aggiungerlo.
